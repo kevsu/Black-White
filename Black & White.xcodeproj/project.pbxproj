@@ -21,6 +21,8 @@
 		0AB05F47196B12A200C06644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F29196B12A200C06644 /* UIKit.framework */; };
 		0AB05F4F196B12A200C06644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB05F4D196B12A200C06644 /* InfoPlist.strings */; };
 		0AB05F51196B12A200C06644 /* Black___WhiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB05F50196B12A200C06644 /* Black___WhiteTests.m */; };
+		0AB05F5B196B12F100C06644 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F5A196B12F100C06644 /* CoreMotion.framework */; };
+		0AB05F5D196B132000C06644 /* blackCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB05F5C196B132000C06644 /* blackCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0AB05F4C196B12A200C06644 /* Black & WhiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Black & WhiteTests-Info.plist"; sourceTree = "<group>"; };
 		0AB05F4E196B12A200C06644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AB05F50196B12A200C06644 /* Black___WhiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Black___WhiteTests.m"; sourceTree = "<group>"; };
+		0AB05F5A196B12F100C06644 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0AB05F5C196B132000C06644 /* blackCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB05F5B196B12F100C06644 /* CoreMotion.framework in Frameworks */,
 				0AB05F28196B12A200C06644 /* CoreGraphics.framework in Frameworks */,
 				0AB05F2A196B12A200C06644 /* UIKit.framework in Frameworks */,
 				0AB05F26196B12A200C06644 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		0AB05F24196B12A200C06644 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AB05F5A196B12F100C06644 /* CoreMotion.framework */,
 				0AB05F25196B12A200C06644 /* Foundation.framework */,
 				0AB05F27196B12A200C06644 /* CoreGraphics.framework */,
 				0AB05F29196B12A200C06644 /* UIKit.framework */,
@@ -126,6 +132,7 @@
 		0AB05F2C196B12A200C06644 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AB05F5C196B132000C06644 /* blackCircle.png */,
 				0AB05F2D196B12A200C06644 /* Black & White-Info.plist */,
 				0AB05F2E196B12A200C06644 /* InfoPlist.strings */,
 				0AB05F31196B12A200C06644 /* main.m */,
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB05F3E196B12A200C06644 /* Images.xcassets in Resources */,
+				0AB05F5D196B132000C06644 /* blackCircle.png in Resources */,
 				0AB05F30196B12A200C06644 /* InfoPlist.strings in Resources */,
 				0AB05F39196B12A200C06644 /* Main.storyboard in Resources */,
 			);
