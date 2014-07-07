@@ -17,6 +17,8 @@ CGFloat screenHeight;
     CMMotionManager *motionManager;
 }
 @property (strong, nonatomic) UIWindow *window;
-//@property (readonly) CMMotionManager *motionManager;
+
+
+// Test comment for github
 
 @end

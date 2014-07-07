@@ -18,11 +18,9 @@
 {
     [super viewDidLoad];
     
-    
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.lastUpdateTime = [[NSDate alloc] init];
-    
     
     self.motionManager = [[CMMotionManager alloc]  init];
     self.queue         = [[NSOperationQueue alloc] init];
