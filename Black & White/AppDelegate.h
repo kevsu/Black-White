@@ -19,6 +19,5 @@ CGFloat screenHeight;
 @property (strong, nonatomic) UIWindow *window;
 
 
-// Test comment for github
 
 @end

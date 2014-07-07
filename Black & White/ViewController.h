@@ -9,20 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <QuartzCore/CAAnimation.h>
+#import "Player.h"
 
 #define kUpdateInterval (1.0f / 60.0f)
 
 @interface ViewController : UIViewController
 {
     IBOutlet UILabel *titleLabel;
-    IBOutlet UIImageView *circle;
+    IBOutlet Player *circle;
+    IBOutlet Player *circle2;
 }
 
-@property (assign, nonatomic) CGPoint currentPoint;
-@property (assign, nonatomic) CGPoint previousPoint;
-@property (assign, nonatomic) CGFloat circleXVelocity;
-@property (assign, nonatomic) CGFloat circleYVelocity;
-@property (assign, nonatomic) CGFloat angle;
 @property (assign, nonatomic) CMAcceleration acceleration;
 @property (strong, nonatomic) CMMotionManager  *motionManager;
 @property (strong, nonatomic) NSOperationQueue *queue;

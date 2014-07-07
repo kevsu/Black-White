@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3B3BC3196B1EA80009CE65 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B3BC2196B1EA80009CE65 /* Player.m */; };
 		0AB05F26196B12A200C06644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F25196B12A200C06644 /* Foundation.framework */; };
 		0AB05F28196B12A200C06644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F27196B12A200C06644 /* CoreGraphics.framework */; };
 		0AB05F2A196B12A200C06644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F29196B12A200C06644 /* UIKit.framework */; };
@@ -23,6 +24,7 @@
 		0AB05F51196B12A200C06644 /* Black___WhiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB05F50196B12A200C06644 /* Black___WhiteTests.m */; };
 		0AB05F5B196B12F100C06644 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB05F5A196B12F100C06644 /* CoreMotion.framework */; };
 		0AB05F5D196B132000C06644 /* blackCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB05F5C196B132000C06644 /* blackCircle.png */; };
+		0AF4662A196B4A2C00A3772A /* blackTri.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF46629196B4A2C00A3772A /* blackTri.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3B3BC1196B1EA80009CE65 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0A3B3BC2196B1EA80009CE65 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		0AB05F22196B12A200C06644 /* Black & White.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black & White.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB05F25196B12A200C06644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AB05F27196B12A200C06644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +61,7 @@
 		0AB05F50196B12A200C06644 /* Black___WhiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Black___WhiteTests.m"; sourceTree = "<group>"; };
 		0AB05F5A196B12F100C06644 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		0AB05F5C196B132000C06644 /* blackCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCircle.png; sourceTree = "<group>"; };
+		0AF46629196B4A2C00A3772A /* blackTri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackTri.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,8 @@
 				0AB05F37196B12A200C06644 /* Main.storyboard */,
 				0AB05F3A196B12A200C06644 /* ViewController.h */,
 				0AB05F3B196B12A200C06644 /* ViewController.m */,
+				0A3B3BC1196B1EA80009CE65 /* Player.h */,
+				0A3B3BC2196B1EA80009CE65 /* Player.m */,
 				0AB05F3D196B12A200C06644 /* Images.xcassets */,
 				0AB05F2C196B12A200C06644 /* Supporting Files */,
 			);
@@ -132,6 +139,7 @@
 		0AB05F2C196B12A200C06644 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AF46629196B4A2C00A3772A /* blackTri.png */,
 				0AB05F5C196B132000C06644 /* blackCircle.png */,
 				0AB05F2D196B12A200C06644 /* Black & White-Info.plist */,
 				0AB05F2E196B12A200C06644 /* InfoPlist.strings */,
@@ -238,6 +246,7 @@
 				0AB05F3E196B12A200C06644 /* Images.xcassets in Resources */,
 				0AB05F5D196B132000C06644 /* blackCircle.png in Resources */,
 				0AB05F30196B12A200C06644 /* InfoPlist.strings in Resources */,
+				0AF4662A196B4A2C00A3772A /* blackTri.png in Resources */,
 				0AB05F39196B12A200C06644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3B3BC3196B1EA80009CE65 /* Player.m in Sources */,
 				0AB05F3C196B12A200C06644 /* ViewController.m in Sources */,
 				0AB05F36196B12A200C06644 /* AppDelegate.m in Sources */,
 				0AB05F32196B12A200C06644 /* main.m in Sources */,
@@ -464,6 +474,7 @@
 				0AB05F56196B12A200C06644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB05F57196B12A200C06644 /* Build configuration list for PBXNativeTarget "Black & WhiteTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +483,7 @@
 				0AB05F59196B12A200C06644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -22,8 +22,12 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blackCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLC-o4-S01">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blackCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLC-o4-S01" customClass="Player">
                                 <rect key="frame" x="249" y="180" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blackTri.png" translatesAutoresizingMaskIntoConstraints="NO" id="IgN-IR-meR" customClass="Player">
+                                <rect key="frame" x="134" y="140" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -32,7 +36,8 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="circle" destination="XLC-o4-S01" id="qR0-IT-lt6"/>
+                        <outlet property="circle" destination="XLC-o4-S01" id="KOv-cV-WEy"/>
+                        <outlet property="circle2" destination="IgN-IR-meR" id="DQo-Xa-bzE"/>
                         <outlet property="titleLabel" destination="30I-LE-1Iy" id="LmC-yZ-EoR"/>
                     </connections>
                 </viewController>
@@ -42,6 +47,7 @@
     </scenes>
     <resources>
         <image name="blackCircle.png" width="400" height="399"/>
+        <image name="blackTri.png" width="183" height="183"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
